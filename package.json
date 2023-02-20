@@ -1,0 +1,20 @@
+{
+  "name": "ts-py-algorithms",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "eslint:check": "eslint ./src/ts --ext .ts",
+    "ts:check": "tsc --skipLibCheck --noEmit",
+    "lint": "npm run eslint:check && npm run ts:check",
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.3"
+  }
+}
